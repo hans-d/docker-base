@@ -1,5 +1,5 @@
 FROM ubuntu:12.04
-MAINTAINER Hans Donner <hans.donner@pobox.com> "https://github.com/hans-d
+MAINTAINER Hans Donner <hans.donner@pobox.com> "https://github.com/hans-d"
 
 ENV DEBIAN_FRONTEND noninteractive
 
