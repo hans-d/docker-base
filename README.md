@@ -6,7 +6,8 @@ Versions/Branches
 -----------------
 Due to current limitations of trusted builds these are seperate docker repos.
 
-- `master` -> basic image with defaults, uses ONBUILD
+- `master` -> base (latest) basic image with defaults, uses ONBUILD
+- `12.04` -> base-12.04
 
 Volumes
 -------
