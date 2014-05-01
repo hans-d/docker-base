@@ -6,9 +6,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # using ONBUILD to integrate with build of final image
 
 # base up to date
-ONBUILD RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list && \
-    apt-get update && \
-    apt-get upgrade -y
+ONBUILD RUN apt-get update &&  apt-get upgrade -y
 
 
 # add scripts and install dependencies
