@@ -1,4 +1,4 @@
-FROM ubuntu:12.04
+FROM ubuntu:14.04
 MAINTAINER Hans Donner <hans.donner@pobox.com> "https://github.com/hans-d"
 
 ENV DEBIAN_FRONTEND noninteractive
