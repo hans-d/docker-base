@@ -1,0 +1,9 @@
+# add scripts and install dependencies
+ADD scripts /docker/
+RUN chmod +x /docker/*
+
+# add predefined configuration
+ADD etc/. /etc/.
+
+# default entrypoint
+ENTRYPOINT ["/docker/start"]
