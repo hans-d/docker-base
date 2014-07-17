@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM phusion/baseimage:0.9.12
 MAINTAINER Hans Donner <hans.donner@pobox.com> "https://github.com/hans-d"
 
 ENV DEBIAN_FRONTEND noninteractive

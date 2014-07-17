@@ -1,14 +1,12 @@
 Base docker environment
 =======================
-Base docker environment construction, containing various fragments that are more frequently re-used
+Base docker environment construction, containing various fragments that are more frequently re-used.
 
-Versions/Branches
------------------
-Due to current limitations of trusted builds these are seperate docker repos.
-
-- `master` -> base (latest) basic image with defaults
-- `12.04` -> base-12.04
-- `14.04` -> base-14.04, follows master
+Special (docker) tags
+---------------------
+- latest: 
+- 12.04: most recent published 12.04 image; old-style base image directly from ubuntu:12.04
+- 14.04: most recent published 14.04 image; following phusion/baseimage 0.9.12
 
 Volumes
 -------
