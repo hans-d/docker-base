@@ -1,0 +1,8 @@
+#!/bin/sh
+
+status () {
+    echo "---> ${@}" >&2
+}
+
+status "Starting container" 
+#/docker/supervisor
